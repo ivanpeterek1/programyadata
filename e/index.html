@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../a/index.html">Programové a datové soubory</a></li>
+            <li><a href="../b/index.html">Operační systémy</a></li>
+            <li><a href="../c/index.html">Ovladače, firmware a unity</a></li>
+            <li><a href="../d/index.html">Aplikační software</a></li>
+            <li><a href="../e/index.html">Instalace programů</a></li>
+            <li><a href="../f/index.html">Softwarové licence</a></li>
+            <li><a href="../g/index.html">Software a autorský zákon</a></li>
+            <li><a href="../h/index.html">Emulace a vizualizace</a></li>
+        </ul>
+    </nav>
+<main>
+    <h1>Instalace programů</h1>
+    <section>
+        <h2 id="instalace-programu">Instalace programu</h2>
+        <p>Program, který si zakoupíme, obvykle obdržíme na CD/DVD disku nebo si jej stáhneme z internetu. Po vložení instalačního CD/DVD disku se většinou automaticky spustí instalační program (díky souboru autorun.inf). U softwaru staženého z internetu musíme instalační program spustit sami (ve Windows nejčastěji poklepáním na soubor install.exe nebo setup.exe).</p>
+        <p>Průvodce instalací (wizard) často vyžaduje zadání sériového čísla a souhlas s licenčními podmínkami, určení složky pro instalaci programu a umístění zástupce programu, případně další informace. Poté instalační program nahraje všechny potřebné soubory na pevný disk počítače, provede nezbytnou konfiguraci (např. v systémovém registru Windows či konfiguračních souborech) a vytvoří zástupce programu pro snadné spuštění. Pro instalaci většiny programů je nutné mít práva správce.</p>
+    </section>
+    <section>
+        <h2 id="odinstalace-programu">Odinstalace programu</h2>
+        <p>Úplné odebrání programu může být paradoxně složitější, zvláště v operačním systému Windows. Při instalaci si program ukládá své komponenty do různých složek (včetně systémových), sdílí některé soubory s jinými programy (např. dynamické knihovny DLL) a vytváří záznamy v registru. Během svého běhu také vytváří dočasné soubory.</p>
+        <p>Odinstalační program často neví přesně, kde všude jsou soubory aplikace uložené, a všechny je neodstraní. Důsledkem je hromadění nepotřebných a nepoužívaných souborů. K jejich odstranění lze použít speciální utility, jako je RegCleaner (nástroj na čištění registrů). Při odstraňování je však nutné postupovat obezřetně, aby nedošlo k poškození důležitých částí systému nebo jiných aplikací.</p>
+        <p>V linuxových systémech je oddělení systémových a uživatelských souborů lépe vyřešené, což zvyšuje pravděpodobnost úplného odstranění nepotřebných programů.</p>
+    </section>
+    <section>
+        <h2 id="platforma-a-kompatibilita">Platforma a kompatibilita</h2>
+        <p>Programy jsou obvykle určené pro konkrétní operační systém a platformu (např. Windows, Linux, macOS). Software vytvořený pro jeden operační systém obvykle nefunguje na jiném (např. program určený pro Windows nelze spustit pod Linuxem a naopak).</p>
+        <p>Mnoho programů, zejména ze sféry svobodného softwaru (free software), je však multiplatformní – jsou dostupné pro více operačních systémů. I v rámci jedné platformy však mohou nastat problémy s kompatibilitou, například kvůli rozdílům mezi verzemi operačního systému (OS) nebo mezi 32bitovými a 64bitovými verzemi.</p>
+        <p>Při pořizování programu je důležité ověřit jeho kompatibilitu s používaným OS. V novějších verzích Windows lze využít funkci Kompatibilita (v kartě Vlastnosti zástupce aplikace), která může pomoci při problémech se spuštěním programu.</p>
+    </section>
+    <section>
+        <h2 id="lokalizace">Lokalizace</h2>
+        <p>Lokalizace je proces překladu programu, v našem případě do češtiny. Většina softwaru pochází od firem z anglicky mluvících zemí, takže originály jsou obvykle v angličtině. Softwarové společnosti však často mají místní zastoupení, které zajišťuje lokalizaci – překlad uživatelského rozhraní, nápovědy, manuálů, případně vytvoření slovníků pro české dělení slov a kontrolu pravopisu.</p>
+        <p>Lokalizace je nákladná a časově náročná, což se může promítnout do ceny softwaru.</p>
+    </section>
+    <section>
+        <h2 id="verze-programu">Verze programů</h2>
+        <p>Každý program má svou verzi, která bývá označená číslem (např. verze 1.0). Aktualizace programů, nazývané update, řeší drobné chyby nebo bezpečnostní problémy. Tyto aktualizace jsou obvykle poskytovány zdarma uživatelům, kteří si zakoupili původní verzi programu.</p>
+        <p>Významnější změny ve vývoji programu jsou označovány jako upgrade (např. z verze 1.0 na 2.0). Upgrade obvykle přináší nové funkce a vylepšené ovládání, ale také vyšší nároky na výkon počítače. Před upgradem je vhodné ověřit minimální požadavky na systém, aby bylo možné program používat.</p>
+        <p>Opačný postup, tedy přechod na starší verzi programu (např. kvůli nekompatibilitě s OS nebo slabšímu hardwaru), se nazývá downgrade.</p>
+    </section>
+    <section>
+        <h2 id="registrace-programu">Registrace programu</h2>
+        <p>Registrace programu spočívá v zaevidování uživatele do databáze výrobce. Registrace je nepovinná, ale obvykle přináší výhody, například:</p>
+        <ul>
+            <li>nárok na zvýhodněný upgrade,</li>
+            <li>informace o časově omezených nabídkách,</li>
+            <li>přístup k zákaznické podpoře,</li>
+            <li>zasílání informací o nových verzích nebo doplňcích programu.</li>
+        </ul>
+    </section>
+    <img src="../img/install.png" alt="." class="center">
+</main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2024/25, autor: <b>Ivan Peterek</b>, třída: <i><b>IT1</b></i></p>
+    </footer>
+</body>
+</html>
